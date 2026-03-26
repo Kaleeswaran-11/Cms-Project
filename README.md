@@ -1,4 +1,4 @@
-# CMS Project
+# Django CMS Project
 
 A full stack Content Management System (CMS) built using Django. This project includes user authentication, CRUD operations, dashboard functionality, and a responsive UI using Bootstrap.
 
@@ -17,7 +17,7 @@ A full stack Content Management System (CMS) built using Django. This project in
 
 ## Tech Stack
 
-- Backend: Python, Django, Django REST Framework (if used)
+- Backend: Python, Django
 - Frontend: HTML, CSS, Bootstrap, JavaScript
 - Database: SQLite / MySQL
 - Tools: Git, GitHub
@@ -26,7 +26,7 @@ A full stack Content Management System (CMS) built using Django. This project in
 
 ## Screenshots
 
-(Add your CMS screenshots here)
+![CMS Output](https://github.com/user-attachments/assets/9fca011d-5ac3-4da7-8083-bb4de701fc47)
 
 ---
 
@@ -42,3 +42,14 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
+Open in browser:
+http://127.0.0.1:8000/
+
+Project Description
+
+This CMS project allows users to manage content efficiently through a web interface. It includes secure authentication, CRUD operations, and a dashboard to handle content management tasks. The project demonstrates full stack development using Django.
+
+Author
+
+Kaleeswaran B
