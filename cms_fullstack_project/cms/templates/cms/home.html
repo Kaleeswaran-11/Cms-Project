@@ -1,0 +1,15 @@
+{% extends 'cms/base.html' %}
+{% block content %}
+<h2>Latest Posts</h2>
+<div class="row">
+{% for post in posts %}
+<div class="col-md-4">
+<div class="card m-2 p-2">
+<h5>{{ post.title }}</h5>
+<p>{{ post.content|truncatewords:15 }}</p>
+<a href="{% url 'post_detail' post.id %}">Read</a>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
